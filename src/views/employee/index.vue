@@ -28,7 +28,7 @@
           type="primary"
           size="small"
           @click="addEmployee"
-          v-addPerson="'add-employee'"
+          v-addPerson="'addPerson'"
           >添加员工</el-button
         >
         <el-button size="small" @click="excelImport">excel导入</el-button>
