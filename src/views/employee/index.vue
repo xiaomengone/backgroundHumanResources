@@ -120,7 +120,6 @@
 
 <script>
 import { apiGetDepartment } from "@/api/department";
-import router from "@/router";
 
 import {
   apiGetSysUser,
