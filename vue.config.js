@@ -24,7 +24,7 @@ module.exports = {
    * In most cases please use '/' !!!
    * Detail: https://cli.vuejs.org/config/#publicpath
    */
-  publicPath: "./",
+  publicPath: "/",
   outputDir: "dist",
   assetsDir: "static",
   lintOnSave: process.env.NODE_ENV === "development",
@@ -52,6 +52,12 @@ module.exports = {
       alias: {
         "@": resolve("src"),
       },
+    },
+    externals: {
+      //配置要排除的包
+      "vue": "Vue",
+      "element-ui": "ELEMENT",
+      "cos-js-sdk-v5": "COS",
     },
   },
   chainWebpack(config) {
