@@ -23,6 +23,7 @@
                 操作<i class="el-icon-arrow-down el-icon--right"></i>
               </span>
               <el-dropdown-menu slot="dropdown">
+                <!-- ceshi1 -->
                 <el-dropdown-item command="add">添加子部门</el-dropdown-item>
                 <el-dropdown-item command="edit">编辑部门</el-dropdown-item>
                 <el-dropdown-item command="del">删除</el-dropdown-item>
